@@ -1,0 +1,87 @@
+    /* Estilos generales */
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        background-color: #f4f4f4;
+        color: #333;
+    }
+
+    /* Navegación */
+    header {
+        background: #3d195b; /* Color morado */
+        padding: 1rem 0;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    nav a:hover {
+        text-decoration: underline;
+    }
+
+    h1 {
+        text-align: center;
+        padding: 20px;
+        color: #3d195b;
+    }
+
+    /* Contenedor Principal (Cuerpo de la página) */
+    article, aside {
+        background: white;
+        margin: 20px;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    /* Estilo del equipo principal */
+    article img {
+        display: block;
+        margin: 0 auto;
+        max-width: 150px;
+    }
+
+    /* Lista lateral (Aside) */
+    aside h3 {
+        border-bottom: 2px solid #3d195b;
+        padding-bottom: 10px;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
+    }
+
+    li {
+        text-align: center;
+        padding: 10px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+    }
+
+    li img {
+        height: 60px;
+        object-fit: contain;
+    }
+
+    /* Footer */
+    footer {
+        text-align: center;
+        padding: 20px;
+        background: #333;
+        color: white;
+        margin-top: 20px;
+    }
